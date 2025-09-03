@@ -1,0 +1,10 @@
+/* Anything between these two tags will be ignored by the browser */
+
+h1 {
+    color: red;
+}
+
+P {
+    color: #1fe291;
+    background-color: bisque;
+}
