@@ -1,10 +1,72 @@
-/* Anything between these two tags will be ignored by the browser */
-
-h1 {
-    color: red;
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
 }
 
-P {
-    color: #1fe291;
-    background-color: bisque;
+/* Header */
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Navigation */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: red; /* Default link color */
+}
+
+nav ul li a:hover {
+    color: yellow; /* Hover color */
+}
+
+nav ul li a:visited {
+    color: green; /* Visited color */
+}
+
+/* Headings */
+h1, h2 {
+    color: #004080;
+    background-color: #cce5ff;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Paragraph text */
+p {
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Span styling */
+.highlight {
+    color: #e60000;
+    font-weight: bold;
+    background-color: #fff3cd;
+    padding: 2px 4px;
+    border-radius: 3px;
+}
+
+/* Div styling */
+.box {
+    border: 2px solid #004080;
+    background-color: #e6f2ff;
+    padding: 15px;
+    margin: 20px 0;
+    border-radius: 8px;
 }
