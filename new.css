@@ -1,0 +1,53 @@
+/* Global Styles */
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  background-image: url("background.jpg"); /* replace with your background */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navigation */
+nav ul {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+  background: rgba(0, 0, 0, 0.7);
+  padding: 10px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  color: orange;
+  font-style: italic;
+  font-weight: normal; /* not bold */
+}
+
+/* Paragraphs */
+.center {
+  text-align: center;
+}
+
+.justify {
+  text-align: justify;
+}
+
+/* Images */
+img {
+  border: 8px solid black;   /* heavy border */
+  padding: 10px;             /* yellow spacing between border and image */
+  background-color: yellow;
+  margin: 15px 0;
+}
