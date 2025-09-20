@@ -1,0 +1,99 @@
+/* assignment5.css */
+
+/* General Page Styling */
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: url("a5bg.png");
+}
+
+/* Header */
+h1 {
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  margin: 20px;
+}
+
+h2 {
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  margin: 20px;
+}
+
+/* Navigation Bar */
+nav {
+  background: #003399;
+  text-align: center;
+  padding: 10px 0;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin: 0 5px;
+}
+
+nav a {
+  display: inline-block;
+  background: #000080;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border: 1px solid #000080;
+  font-weight: bold;
+}
+
+nav a:hover {
+  background: white;
+  color: #000080;
+  border: 1px solid white;
+}
+
+/* Main Content */
+main {
+  background: white;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #000;
+}
+
+p {
+  text-align: justify;
+}
+
+/* Link Styling in Paragraphs */
+main a {
+  color: blue;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+main a:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+/* Horizontal Rule under h2 */
+hr {
+  border: 0;
+  border-top: 3px solid black;
+  margin: 10px 0 20px 0;
+}
+
+/* Footer */
+footer {
+  background: #000080;
+  border: 3px solid white;
+  color: white;
+  font-family: Verdana, Geneva, sans-serif;
+  font-weight: bold;
+  font-style: italic;
+  text-align: center;
+  padding: 20px;
+}
