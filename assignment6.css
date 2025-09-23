@@ -1,0 +1,107 @@
+/* Reset */
+body {
+    margin: 0;
+    padding: 0;
+    background: url("a62.png") repeat;
+    font-family: Georgia, serif;
+}
+
+/* Centered content box */
+#container {
+    width: 900px;
+    margin: 20px auto;
+    background: white;
+    border: 4px solid black;
+    padding: 20px;
+}
+
+/* Header */
+h1 {
+    font-family: Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 28px;
+    color: white;
+    background: black;
+    padding: 15px;
+    margin: 0 0 20px 0;
+    text-align: center;
+}
+
+/* Secondary header */
+h2 {
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+/* Navigation (left column) */
+nav {
+    float: left;
+    width: 180px;
+    margin-right: 20px;
+}
+
+nav a {
+    display: block;
+    background: red;
+    color: white;
+    text-decoration: none;
+    padding: 12px;
+    margin-bottom: 6px;
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    border: 2px solid black;
+}
+
+/* Hover for nav */
+nav a:hover {
+    background: black;
+    color: white;
+    cursor: pointer;
+}
+
+/* Main content (right side) */
+main {
+    overflow: hidden; /* clears floated nav */
+}
+
+/* Image styling */
+img {
+    border: 4px solid black;
+    display: block;
+    margin: 15px auto;
+    max-width: 100%;
+}
+
+/* Paragraphs */
+p {
+    font-family: Georgia, serif;
+    font-size: 14px;
+    text-align: justify;
+    margin: 12px 0;
+}
+
+/* Links inside paragraphs */
+p a {
+    color: red;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+p a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    font-family: Verdana, sans-serif;
+    font-style: italic;
+    background: red;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
