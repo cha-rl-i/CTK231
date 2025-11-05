@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Charlie Reagan — Portfolio</title>
+  <link rel="stylesheet" href="charliestyle.css" />
+</head>
+<body>
+  <div class="wrap" role="main" aria-label="Charlie Reagan portfolio">
+    <header>
+      <div class="brand">
+        <div class="logo" aria-hidden="true">CR</div>
+        <div>
+          <h1>CHARLIE REAGAN</h1>
+          <p>Portfolio</p>
+        </div>
+      </div>
+
+      <nav aria-label="Primary">
+        <a class="nav-link" href="#home">HOME</a>
+        <a class="nav-link" href="#music">MUSIC</a>
+        <a class="nav-link" href="#clothes">CLOTHES</a>
+        <a class="nav-link" href="#socials">SOCIALS</a>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <div class="left">
+        <h2 class="title">Hello — I'm Charlie</h2>
+        <p class="subtitle">Songwriter • Producer • Style Curator</p>
+
+        <p class="about">
+          Welcome to my portfolio. I create music, design apparel, and share behind-the-scenes
+          looks at the creative process. Browse my work, find upcoming releases, or get in touch.
+        </p>
+
+        <div class="cta-row" aria-hidden="false">
+          <a class="btn primary" href="#music">Listen</a>
+          <a class="btn" href="#clothes">Shop</a>
+          <a class="btn" href="#socials">Follow</a>
+        </div>
+      </div>
+
+      <aside class="right" aria-label="Navigation and contact">
+        <div>
+          <p class="section-title">CONTACT ME:</p>
+        </div>
+
+        <div>
+          <p class="section-title" style="margin-top:6px">Quick Links</p>
+          <nav class="menu" aria-label="Site sections">
+            <a href="#home">HOME</a>
+            <a href="#music">MUSIC</a>
+            <a href="#clothes">CLOTHES</a>
+            <a href="#socials">SOCIALS</a>
+          </nav>
+        </div>
+
+        <div class="contact">
+          <div class="hint">Bookings & inquiries</div>
+          <button class="contact-btn" onclick="location.href='mailto:hello@charliereagan.example'">Email</button>
+        </div>
+      </aside>
+    </section>
+
+    <footer>
+      © <span id="year"></span> CHARLIE REAGAN — All rights reserved
+    </footer>
+  </div>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
