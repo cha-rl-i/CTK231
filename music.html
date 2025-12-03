@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Charlie Reagan — Music</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="finalportfoliocharliestyleassignment11.css" />
+</head>
+<body>
+
+<div class="wrap">
+  <header>
+    <div class="brand">
+      <img src="pictureofme.png" alt="My Portfolio Photo">
+      <div>
+        <h1>CHARLIE REAGAN</h1>
+        <p>Music</p>
+      </div>
+    </div>
+
+    <nav aria-label="Primary">
+      <a class="nav-link" href="finalportfoliocharliereaganindex assignment11.html">HOME</a>
+      <a class="nav-link" href="music.html">MUSIC</a>
+      <a class="nav-link" href="clothes.html">CLOTHES</a>
+      <a class="nav-link" href="socials.html">SOCIALS</a>
+    </nav>
+  </header>
+
+  <section class="music-section">
+<h2>Music Gallery</h2>
+<p>Original beats, instrumentals, and upcoming releases.</p>
+
+<div class="music-gallery">
+
+  <!-- Track 1 -->
+  <div class="track-card">
+    <h3>Versace Glasses 180bpm </h3>
+    <audio controls>
+      <source src="@vidoxxbeats - versace_glasses_180bpm.mp3" type="audio/mpeg">
+    </audio>
+  </div>
+
+  <!-- Track 2 -->
+  <div class="track-card">
+    <h3>Subway Station 180bpm D minor </h3>
+    <audio controls>
+      <source src="@vidoxxbeats - subwaystation_180bpm_Dmin.mp3" type="audio/mpeg">
+    </audio>
+  </div>
+
+  <!-- Track 3 -->
+  <div class="track-card">
+    <h3>All The Things You Said 180bpm F minor </h3>
+    <audio controls>
+      <source src="@vidoxxbeats - all_the_things_you_said_180bpm_Fmin.mp3" type="audio/mpeg">
+    </audio>
+  </div>
+    <p style="margin-top:20px;">More music coming soon.</p>
+  </section>
+
+  <footer>
+    © <span id="year"></span> CHARLIE REAGAN — All rights reserved
+  </footer>
+</div>
+
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>
